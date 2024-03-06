@@ -1,0 +1,62 @@
+body{
+    background-image: url(images/coffebg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.Menu{
+    width: 30%;
+    height: 100%;
+    background-color: burlywood;
+}
+.Menu hr{
+    border-top: 3px solid saddlebrown;
+    border-radius: 5px;
+}
+.header h1,p{
+    text-align: center;
+}
+.contentHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentHeader img{
+    width: 5%;
+    height: 5%;
+}
+.content h2{
+    text-align: center;
+}
+
+
+.left{
+    float: left;
+    width: 50%;
+}
+.left p{
+    text-align: left;
+    padding-left: 5%;
+}
+.right{
+    float: left;
+    width: 50%;
+}
+.right p{
+    text-align: right;
+    padding-right: 5%;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer a{
+    color: black;
+}
